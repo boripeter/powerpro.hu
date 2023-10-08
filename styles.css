@@ -130,7 +130,7 @@ header {
     background-color: rgba(0, 0, 0, 0.7); /* Átlátszó fekete háttér a fejléc alatt */
     color: #fff;
     text-align: center;
-    padding: 10px; /* Adj meg egy megfelelő belső margót a fejléchez */
+    padding: 0px; /* Adj meg egy megfelelő belső margót a fejléchez */
     position: fixed; /* Fikszált pozíció */
     top: 0;
     left: 0;
