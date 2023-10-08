@@ -3,7 +3,7 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Petervill</title>
+        <title>Powerpro</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
@@ -20,7 +20,19 @@
     </header>
     <img src="kep.jpg" alt="" class="transparent-image" style="width: 300; height: 300px;">
 
-
+    <script>
+        // JavaScript kód
+        window.addEventListener('scroll', function() {
+            var centeredSection = document.querySelector('.centered-section');
+            if (centeredSection) {
+                if (window.scrollY > 100) { // Példa: ha a felhasználó 100 pixelt görget lefelé
+                    centeredSection.classList.add('hide-on-scroll');
+                } else {
+                    centeredSection.classList.remove('hide-on-scroll');
+                }
+            }
+        });
+    </script>
     
     <section class="centered-section">
         <h2></h2> 
