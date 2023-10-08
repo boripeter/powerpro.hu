@@ -261,6 +261,6 @@ body {
 @media screen and (max-width: 768px) {
     body {
         font-size: 12px; /* Csökkentett betűméret mobil eszközökön */
-        overflow: scroll;
+        overflow: hidden;
     }
 }
