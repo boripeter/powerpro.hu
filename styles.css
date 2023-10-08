@@ -1,0 +1,265 @@
+/* Alap stílusok */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Szakaszkódok stílusai */
+section {
+    padding: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Alap stílusok */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* 3D-s gomb stílusai */
+.button-3d {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFFF00;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button-3d:hover {
+    background-color: #FFFF00;
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
+
+
+/* Footer stílusai */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+   
+   
+}
+
+footer p {
+    margin: 0;
+    
+}
+
+
+/* CSS stíluslap - styles.css */
+
+body {
+    background-image: url("wall4.jpg"); /* Itt helyettesítsd be a kép elérési útját */
+    background-color: rgba(255, 255, 255, 0.7); /* Fehér háttérkép 70%-os átláthatósággal */
+    background-size: cover;
+    background-position: relative;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+/* Háttérkép halványítása az ::before pseudo-elemmel */
+body::before {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.5); /* Fehér háttér átlátszósága 0.5 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Mozgatható a háttér alá */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Átlátszó fekete háttér a fejléc alatt */
+    color: #fff;
+    text-align: center;
+    padding: 20px; /* Adj meg egy megfelelő belső margót a fejléchez */
+    position: fixed; /* Fikszált pozíció */
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+main {
+    padding: 20px; /* Adj meg egy megfelelő belső margót a tartalomhoz */
+}
+
+/* CSS stíluslap - styles.css */
+
+.centered-section {
+    text-align: center;
+    margin-top: 140px;
+    font-family: Arial, sans-serif; /* Példa betűtípus beállításra */
+    color: #000000; /* Példa szín beállításra (szürke) */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1vh; /* A szekció teljes képernyő magasságban lesz */
+    font-size: 30px;
+    p {
+        font-weight: bold; /* Félkövér betűk */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 1px árnyék jobbra és le, 2px elmosódás és fekete árnyék */
+    }
+    
+    h1 {
+        font-weight: 900; /* A betűk vastagsága 700 */
+    }
+
+
+    p {
+        font-weight: bold; /* Félkövér betűk */
+    }
+
+    
+}
+
+.kapcsolat {
+    text-align: center;
+    margin-top: 150px;
+    font-family: Arial, sans-serif; /* Példa betűtípus beállításra */
+    color: #000000; /* Példa szín beállításra (szürke) */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    height: 1vh; /* A szekció teljes képernyő magasságban lesz */
+    
+    font-size: 30px;
+   
+    p {
+        font-weight: bold; /* Félkövér betűk */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 1px árnyék jobbra és le, 2px elmosódás és fekete árnyék */
+    }
+    
+    h2 {
+        font-weight: 900; /* A betűk vastagsága 700 */
+    }
+
+
+    p {
+        font-weight: bold; /* Félkövér betűk */
+    }
+
+    
+}
+
+.arak {
+    text-align: left;
+    font-family: Arial, sans-serif; /* Példa betűtípus beállításra */
+    color: #000000; /* Példa szín beállításra (szürke) */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    height: 1vh; /* A szekció teljes képernyő magasságban lesz */
+    font-size: 30px;
+    p {
+        font-weight: bold; /* Félkövér betűk */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 1px árnyék jobbra és le, 2px elmosódás és fekete árnyék */
+    }
+    
+    h2 {
+        font-weight: 900; /* A betűk vastagsága 700 */
+    }
+
+
+    p {
+        font-weight: bold; /* Félkövér betűk */
+    }
+
+    
+}
+
+
+body {
+    background-image: url("wall4.jpg"); /* Háttérkép URL-je */
+    background-color: rgba(255, 255, 255, 0.1); /* Fehér háttérkép 70%-os átláthatósággal */
+    background-size: cover; /* A háttérkép mérete legyen a kijelző méretéhez igazítva */
+    background-repeat: no-repeat; /* Háttérkép ne ismétlődjön meg */
+    background-attachment: fixed; /* Háttérkép rögzített pozícióban (opcionális) */
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Átlátszó fekete háttér a lábrész felett */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0; /* Módosítás: a lábrész alját igazítjuk az oldal aljához */
+    width: 100%; /* Módosítás: a lábrész teljes szélességű legyen */
+    position: fixed; /* Fikszált pozíció */
+}
+
+
+
+
+/* Alap stílusok desktop eszközökhöz */
+body {
+    font-size: 16px;
+}
+
+/* Médialekérdezés mobil eszközökhöz */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Csökkentett betűméret mobil eszközökön */
+    }
+}
