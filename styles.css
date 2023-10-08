@@ -136,43 +136,38 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    height: 10px;
     
-}
-
-main {
-    padding: 20px; /* Adj meg egy megfelelő belső margót a tartalomhoz */
 }
 
 /* CSS stíluslap - styles.css */
 
 .centered-section {
     text-align: center;
-    margin-top: 140px;
+    margin-top: 50px;
     font-family: Arial, sans-serif; /* Példa betűtípus beállításra */
     color: #000000; /* Példa szín beállításra (szürke) */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     height: 1vh; /* A szekció teljes képernyő magasságban lesz */
+    
     font-size: 30px;
+   
     p {
         font-weight: bold; /* Félkövér betűk */
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 1px árnyék jobbra és le, 2px elmosódás és fekete árnyék */
-        
     }
     
-  
-
-
-    
-
-    
+    h2 {
+        font-weight: 900; /* A betűk vastagsága 700 */
+    }
 }
 
 .kapcsolat {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 50px;
     font-family: Arial, sans-serif; /* Példa betűtípus beállításra */
     color: #000000; /* Példa szín beállításra (szürke) */
     display: flex;
@@ -255,6 +250,5 @@ body {
 @media screen and (max-width: 768px) {
     body {
         font-size: 12px; /* Csökkentett betűméret mobil eszközökön */
-        overflow: hidden; /* Példa: elrejti a vízszintes görgetősávot */
     }
 }
