@@ -139,7 +139,7 @@ header {
 }
 
 main {
-    padding: 20px; /* Adj meg egy megfelelő belső margót a tartalomhoz */
+    padding-top: 20px; /* A tartalom felett hagyj egy helyet a fejlécnek */
 }
 
 /* CSS stíluslap - styles.css */
@@ -261,6 +261,6 @@ body {
 @media screen and (max-width: 768px) {
     body {
         font-size: 12px; /* Csökkentett betűméret mobil eszközökön */
-        overflow: hidden;
+        overflow: float;
     }
 }
