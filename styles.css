@@ -140,7 +140,7 @@ header {
 
 /* CSS stíluslap - styles.css */
 p {
-    margin-bottom: 10px; /* Bekezdések közti távolság csökkentése 10 pixelre */
+    margin-bottom: 5px; /* Bekezdések közti távolság csökkentése 10 pixelre */
 }
 
 .centered-section {
