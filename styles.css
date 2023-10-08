@@ -47,7 +47,7 @@ body {
 header {
     background-color: #333;
     color: #000000;
-    padding: 0px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -130,7 +130,7 @@ header {
     background-color: rgba(0, 0, 0, 0.7); /* Átlátszó fekete háttér a fejléc alatt */
     color: #fff;
     text-align: center;
-    padding: 20px; /* Adj meg egy megfelelő belső margót a fejléchez */
+    padding: 0px; /* Adj meg egy megfelelő belső margót a fejléchez */
     position: fixed; /* Fikszált pozíció */
     top: 0;
     left: 0;
