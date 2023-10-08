@@ -133,7 +133,7 @@ header {
     text-align: center;
     padding: 20px; /* Adj meg egy megfelelő belső margót a fejléchez */
     position: fixed; /* Fikszált pozíció */
-    height: 100px;
+    height: 110px;
     width: 100%; /* Módosítás: a lábrész teljes szélességű legyen */
     
 }
