@@ -156,6 +156,7 @@ main {
     align-items: center;
     height: 1vh; /* A szekció teljes képernyő magasságban lesz */
     font-size: 30px;
+    overflow: auto;
     p {
         font-weight: bold; /* Félkövér betűk */
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 1px árnyék jobbra és le, 2px elmosódás és fekete árnyék */
@@ -174,7 +175,7 @@ main {
 
 .kapcsolat {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
     font-family: Arial, sans-serif; /* Példa betűtípus beállításra */
     color: #000000; /* Példa szín beállításra (szürke) */
     display: flex;
