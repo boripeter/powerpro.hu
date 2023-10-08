@@ -153,7 +153,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 0.5vh; /* A szekció teljes képernyő magasságban lesz */
+    height: 1.5vh; /* A szekció teljes képernyő magasságban lesz */
     font-size: 30px;
     p {
         font-weight: bold; /* Félkövér betűk */
