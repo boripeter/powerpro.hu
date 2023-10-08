@@ -260,7 +260,7 @@ body {
 /* Médialekérdezés mobil eszközökhöz */
 @media screen and (max-width: 768px) {
     body {
-        font-size: 4px; /* Csökkentett betűméret mobil eszközökön */
+        font-size: 12px; /* Csökkentett betűméret mobil eszközökön */
         overflow: float;
     }
 }
