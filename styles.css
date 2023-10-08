@@ -147,14 +147,14 @@ main {
 
 .centered-section {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 140px;
     font-family: Arial, sans-serif; /* Példa betűtípus beállításra */
     color: #000000; /* Példa szín beállításra (szürke) */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1vh; /* A szekció teljes képernyő magasságban lesz */
+    
     font-size: 30px;
     p {
         font-weight: bold; /* Félkövér betűk */
